@@ -12,16 +12,16 @@ const amplifyconfig = ''' {
                 "CredentialsProvider": {
                     "CognitoIdentity": {
                         "Default": {
-                            "PoolId": "us-east-1:2bcfdafa-2769-43fe-958c-f57f53592f33",
+                            "PoolId": "us-east-1:a3dfa5b5-7edb-4632-a06b-45306ed6e985",
                             "Region": "us-east-1"
                         }
                     }
                 },
                 "CognitoUserPool": {
                     "Default": {
-                        "PoolId": "us-east-1_c94X8hvUB",
-                        "AppClientId": "5aiif8evt1f1dothtaabb4si03",
-                        "AppClientSecret": "12tfi0dafdasd9p23h37eltgia74ckg41oeqtvntohagr9k2i97",
+                        "PoolId": "us-east-1_HyTNJxWzM",
+                        "AppClientId": "7p57hdnrh2toa5b87grm97mal8",
+                        "AppClientSecret": "15uhq09e3etgqbentc64t97mrhcjnjs1nrp8qft32a68s3ao8jnm",
                         "Region": "us-east-1"
                     }
                 },

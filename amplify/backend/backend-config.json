@@ -1,6 +1,6 @@
 {
 	"auth": {
-		"amplifytest38e22385": {
+		"amplifytest8d6f5682": {
 			"service": "Cognito",
 			"providerPlugin": "awscloudformation",
 			"dependsOn": [],
