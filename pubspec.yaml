@@ -25,13 +25,12 @@ dependencies:
     sdk: flutter
 
   amplify_core: '<1.0.0'
-  amplify_analytics_pinpoint: '<1.0.0'
+  amplify_storage_s3: '<1.0.0'
   amplify_auth_cognito: '<1.0.0'
 
+  file_picker: '^1.8.0+1'
   flutter_login: '^1.0.0'
   rflutter_alert: '^1.0.0'
-
-
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.

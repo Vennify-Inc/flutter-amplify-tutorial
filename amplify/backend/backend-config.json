@@ -1,15 +1,15 @@
 {
 	"auth": {
-		"amplifytest2edb302b": {
+		"amplifyteste2eed43e": {
 			"service": "Cognito",
 			"providerPlugin": "awscloudformation",
 			"dependsOn": [],
 			"customAuth": false
 		}
 	},
-	"analytics": {
-		"amplifytest": {
-			"service": "Pinpoint",
+	"storage": {
+		"storage": {
+			"service": "S3",
 			"providerPlugin": "awscloudformation"
 		}
 	}

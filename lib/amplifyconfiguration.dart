@@ -12,16 +12,16 @@ const amplifyconfig = ''' {
                 "CredentialsProvider": {
                     "CognitoIdentity": {
                         "Default": {
-                            "PoolId": "us-east-1:97dc1ead-9857-4013-b321-d998db4941f0",
+                            "PoolId": "us-east-1:d3db4aa1-26ce-406e-8870-9b6e0cb2e311",
                             "Region": "us-east-1"
                         }
                     }
                 },
                 "CognitoUserPool": {
                     "Default": {
-                        "PoolId": "us-east-1_trc6hWcMi",
-                        "AppClientId": "13fdu9f53a8oiareldgjqpk0j8",
-                        "AppClientSecret": "10le7i12lfj2hv5gu6b6gf0refpvciipur9293niiltjnavr4kht",
+                        "PoolId": "us-east-1_XA7sl3xMm",
+                        "AppClientId": "4g47kkr6m37b0bbg7k136opfuo",
+                        "AppClientSecret": "ifsuhebmitjpvfvsoj5idh0h95qptfd71s2h4odld34ffgvlm1d",
                         "Region": "us-east-1"
                     }
                 },
@@ -30,30 +30,21 @@ const amplifyconfig = ''' {
                         "authenticationFlowType": "USER_SRP_AUTH"
                     }
                 },
-                "PinpointAnalytics": {
+                "S3TransferUtility": {
                     "Default": {
-                        "AppId": "8b63fd4a67524e27ac923ba051b2cb8f",
-                        "Region": "us-east-1"
-                    }
-                },
-                "PinpointTargeting": {
-                    "Default": {
+                        "Bucket": "buckety142853-dev",
                         "Region": "us-east-1"
                     }
                 }
             }
         }
     },
-    "analytics": {
+    "storage": {
         "plugins": {
-            "awsPinpointAnalyticsPlugin": {
-                "pinpointAnalytics": {
-                    "appId": "8b63fd4a67524e27ac923ba051b2cb8f",
-                    "region": "us-east-1"
-                },
-                "pinpointTargeting": {
-                    "region": "us-east-1"
-                }
+            "awsS3StoragePlugin": {
+                "bucket": "buckety142853-dev",
+                "region": "us-east-1",
+                "defaultAccessLevel": "guest"
             }
         }
     }
